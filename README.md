@@ -42,6 +42,16 @@ The repository includes a [sanitized sample payload](examples/discord-payload.js
 - Repeated events produced a persistent channel history.
 - The webhook secret was absent from source files and Git history.
 
+## Companion Tool
+
+[payload_guard.py](src/payload_guard.py) validates a local Discord-style JSON payload and writes a safe Markdown preview. It rejects known secret-bearing keys and live Discord webhook URLs. The tool does not make HTTP requests and cannot send a message.
+
+~~~powershell
+python .\src\payload_guard.py --input .\examples\discord-payload.json --out .\reports\payload-preview.md
+~~~
+
+Use this before configuring a source platform so malformed payloads or accidentally pasted secrets are caught locally.
+
 ## Security Controls
 
 - Treat the full webhook URL as a secret because it can authorize message delivery.

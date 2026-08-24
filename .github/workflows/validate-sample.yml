@@ -1,4 +1,4 @@
-name: Validate sample payload
+name: Validate webhook tooling
 
 on:
   push:
@@ -14,3 +14,9 @@ jobs:
 
       - name: Validate sample JSON
         run: python -m json.tool examples/discord-payload.json
+
+      - name: Run payload guard tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate local safe preview
+        run: python src/payload_guard.py --input examples/discord-payload.json --out reports/payload-preview.md
