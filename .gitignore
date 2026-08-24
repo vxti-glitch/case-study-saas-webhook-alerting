@@ -1,0 +1,6 @@
+.env
+*.log
+exports/
+secrets/
+webhook-url.txt
+

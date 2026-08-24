@@ -1,0 +1,4 @@
+{
+  "content": "Alert: {{event_name}} | Resource: {{resource_name}} | Status: {{status}} | Time: {{event_time}}"
+}
+
