@@ -12,4 +12,3 @@
 ## Ticket Evidence
 
 Record the source event timestamp, HTTP status, destination, payload version, and corrective action. Never paste the full webhook URL into the ticket.
-

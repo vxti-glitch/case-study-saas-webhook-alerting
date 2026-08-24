@@ -13,4 +13,3 @@ Do not submit live webhook URLs, tokens, account identifiers, private channel na
 5. Document the incident without repeating the secret.
 
 The endpoint shown in documentation must use explicit placeholders such as `WEBHOOK_ID` and `WEBHOOK_TOKEN`.
-

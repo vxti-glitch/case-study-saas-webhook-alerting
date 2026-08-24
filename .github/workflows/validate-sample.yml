@@ -14,4 +14,3 @@ jobs:
 
       - name: Validate sample JSON
         run: python -m json.tool examples/discord-payload.json
-
