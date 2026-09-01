@@ -1,5 +1,7 @@
 # Case Study: SaaS Webhook Alerting
 
+> **DEPRECATED — archive after this notice is merged.** This documentation-only reconstruction is not retained as proof of a live SaaS or Discord integration. History is preserved for transparency; no feature expansion or new execution claim is planned.
+
 [![Validate sample payload](https://github.com/vxti-glitch/case-study-saas-webhook-alerting/actions/workflows/validate-sample.yml/badge.svg)](https://github.com/vxti-glitch/case-study-saas-webhook-alerting/actions/workflows/validate-sample.yml)
 ![Case study](https://img.shields.io/badge/Format-sanitized_case_study-0F766E)
 
